@@ -8,7 +8,7 @@ end
 #my Gems
 #Devise
 gem 'haml', '~> 5.0', '>= 5.0.1'
-#Simple Form	
+#Simple Form
 gem 'simple_form', '~> 3.5'
 #Devise
 gem 'devise', '~> 4.3'
@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', platforms: :ruby
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
